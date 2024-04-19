@@ -1,0 +1,22 @@
+{
+  "name": "eclopu",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/ryangalvaogp/excel.cloud-to-powerbi.url.git",
+  "author": "Ryan Galvão <ryan.trompetista@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --inspect --trace-warnings --unhandled-rejections=strict --ignore-watch node_modules src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/readline-sync": "^1.4.8",
+    "@types/typescript": "^2.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
